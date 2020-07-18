@@ -7,3 +7,7 @@ This is simple Anti-Cheat for game Deceit.
  * signtool.exe sign /a /ac "any Cross-Certificates.cer" /f "your amazing certificate which you bought.pfx" /p "password from your certificate" yourdrivername.sys
 # Test Driver:
 [Download](https://github.com/Qurcx01/Deceit-AntiCheat/blob/master/DriverTest/DeceitAntiCheat.sys)
+
+# How to start driver:
+* sc create Baseline type=kernel binPath="path to your driver .sys"
+* sc start Baseline
