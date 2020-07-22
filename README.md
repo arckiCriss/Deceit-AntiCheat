@@ -6,8 +6,8 @@ This is simple Anti-Cheat for game Deceit. Do not forget change altitude!
 # Signing process:
  * signtool.exe sign /a /ac "any Cross-Certificates.cer" /f "your amazing certificate which you bought.pfx" /p "password from your certificate" yourdrivername.sys
 # Test Driver:
-[Download](https://github.com/Qurcx01/Deceit-AntiCheat/blob/master/DriverTest/DeceitAntiCheat.sys)
-
+[Download Driver](https://github.com/Qurcx01/Deceit-AntiCheat/blob/master/DriverTest/DeceitAntiCheat.sys)<br/>
+[Download Launcher](https://github.com/Qurcx01/Deceit-AntiCheat/blob/master/DriverTest/Launcher.exe)
 # How to start driver:
 * sc create Baseline type=kernel binPath="path to your driver .sys"
 * sc start Baseline
