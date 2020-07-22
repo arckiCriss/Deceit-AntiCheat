@@ -1,0 +1,195 @@
+﻿  Launcher.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(364,5): error C2065: 'NETWORK_MANAGER_FIRST_IP_ADDRESS_ARRIVAL_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(369,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(372,5): error C2065: 'NETWORK_MANAGER_LAST_IP_ADDRESS_REMOVAL_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(377,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(371,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(371,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(371,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(383,5): error C2065: 'DOMAIN_JOIN_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(388,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(382,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(382,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(382,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(391,5): error C2065: 'DOMAIN_LEAVE_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(396,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(390,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(390,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(390,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(403,5): error C2065: 'FIREWALL_PORT_OPEN_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(408,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(402,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(402,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(402,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(411,5): error C2065: 'FIREWALL_PORT_CLOSE_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(416,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(410,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(410,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(410,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(423,5): error C2065: 'MACHINE_POLICY_PRESENT_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(428,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(422,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(422,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(422,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(431,5): error C2065: 'USER_POLICY_PRESENT_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(436,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(430,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(430,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(430,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(443,5): error C2065: 'RPC_INTERFACE_EVENT_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(448,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(442,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(442,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(442,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(451,5): error C2065: 'NAMED_PIPE_EVENT_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(456,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(450,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(450,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(450,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(462,5): error C2065: 'CUSTOM_SYSTEM_STATE_CHANGE_EVENT_GUID': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(467,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(461,1): error C2374: 'DEFINE_GUID': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(363): message : see declaration of 'DEFINE_GUID'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(461,13): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(461,13): message : The initializer contains too many elements
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(474,15): error C3646: 'Data': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(474,15): error C2143: syntax error: missing ',' before '['
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(474,18): error C2143: syntax error: missing ')' before ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(474,18): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(481,29): error C3646: 'DataOffset': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(481,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(482,22): error C3646: 'Data': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(482,22): error C2143: syntax error: missing ',' before '['
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(482,25): error C2143: syntax error: missing ')' before ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(482,25): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(503,30): error C3646: 'lpDescription': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(503,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(509,30): error C3646: 'lpDescription': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(509,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(532,26): error C3646: 'Delay': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(532,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(536,30): error C3646: 'dwResetPeriod': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(536,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(537,28): error C3646: 'lpRebootMsg': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(537,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(538,26): error C3646: 'lpCommand': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(538,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(542,25): error C3646: 'cActions': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(542,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(549,30): error C3646: 'dwResetPeriod': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(549,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(550,28): error C3646: 'lpRebootMsg': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(550,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(551,26): error C3646: 'lpCommand': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(551,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(555,25): error C3646: 'cActions': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(555,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(573,33): error C3646: 'fDelayedAutostart': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(573,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(580,49): error C3646: 'fFailureActionsOnNonCrashFailures': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(580,49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(587,33): error C3646: 'dwServiceSidType': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(587,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(594,39): error C3646: 'pmszRequiredPrivileges': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(594,39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(600,39): error C3646: 'pmszRequiredPrivileges': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(600,39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(614,37): error C3646: 'dwPreshutdownTimeout': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(614,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(622,23): error C3646: 'dwDataType': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(622,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(626,19): error C3646: 'cbData': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(626,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(630,18): error C3646: 'pData': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(630,18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(638,46): error C3646: 'dwTriggerType': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(638,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(639,41): error C3646: 'dwAction': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(639,41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(640,13): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(640,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(640,48): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(647,43): error C3646: 'cDataItems': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(647,43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(661,38): error C3646: 'cTriggers': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(661,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(666,38): error C3646: 'pReserved': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(666,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(675,44): error C3646: 'usPreferredNode': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(675,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(676,36): error C3646: 'fDelete': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(676,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(683,30): error C3646: 'liNewTime': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(683,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(684,30): error C3646: 'liOldTime': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(684,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(691,34): error C3646: 'dwLaunchProtected': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(691,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(698,16): error C2065: 'SC_HANDLE': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(698,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(699,21): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(699,21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(699,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(701,16): error C2065: 'SERVICE_STATUS_HANDLE': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(701,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(701,1): error C2374: 'DECLARE_HANDLE': redefinition; multiple initialization
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(698): message : see declaration of 'DECLARE_HANDLE'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(724,26): error C3646: 'dwServiceType': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(724,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(725,27): error C3646: 'dwCurrentState': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(725,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(726,31): error C3646: 'dwControlsAccepted': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(726,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(727,28): error C3646: 'dwWin32ExitCode': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(727,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(728,38): error C3646: 'dwServiceSpecificExitCode': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(728,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(729,25): error C3646: 'dwCheckPoint': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(729,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(730,23): error C3646: 'dwWaitHint': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(730,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(734,26): error C3646: 'dwServiceType': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(734,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(735,27): error C3646: 'dwCurrentState': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(735,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(736,31): error C3646: 'dwControlsAccepted': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(736,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(737,28): error C3646: 'dwWin32ExitCode': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(737,28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(738,38): error C3646: 'dwServiceSpecificExitCode': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(738,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(739,25): error C3646: 'dwCheckPoint': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(739,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(740,23): error C3646: 'dwWaitHint': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(740,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(741,24): error C3646: 'dwProcessId': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(741,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(742,27): error C3646: 'dwServiceFlags': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(742,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(751,36): error C3646: 'lpServiceName': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(751,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(752,36): error C3646: 'lpDisplayName': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(752,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(756,36): error C3646: 'lpServiceName': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(756,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(757,36): error C3646: 'lpDisplayName': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(757,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(769,44): error C3646: 'lpServiceName': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(769,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(770,44): error C3646: 'lpDisplayName': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(770,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(774,44): error C3646: 'lpServiceName': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(774,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(775,44): error C3646: 'lpDisplayName': unknown override specifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h(775,44): fatal error C1003: error count exceeds 100; stopping compilation

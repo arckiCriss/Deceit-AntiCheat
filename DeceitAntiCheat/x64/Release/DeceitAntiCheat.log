@@ -1,0 +1,6 @@
+﻿  Building 'DeceitAntiCheat' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  src.c
+  DeceitAntiCheat.vcxproj -> C:\Users\manno\Documents\GitHub\Deceit-AntiCheat\DeceitAntiCheat\x64\Release\DeceitAntiCheat.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  
