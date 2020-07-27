@@ -49,16 +49,7 @@ void FindWindow()
 		if (ChangeFound)
 			break;
 	}
-
-	//Sleep(3000);
 }
-
-/*auto myConsole = GetConsoleWindow();
-	ShowWindow(myConsole, 0);
-    ShellExecute(NULL, L"open", L"steam://rungameid/466240", NULL, NULL, SW_SHOWDEFAULT);
-	FindWindow();
-    createservice();*/
-
 
 void testsignDetect()
 {
