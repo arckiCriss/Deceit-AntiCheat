@@ -105,6 +105,7 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath)
 	return status;
 }
 
+
 NTSTATUS ProcProtect()
 {
 	OB_CALLBACK_REGISTRATION CallbackReg;

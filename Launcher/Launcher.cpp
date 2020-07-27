@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include <shellapi.h>
 #include <Nspapi.h>
-
+#pragma comment(lib, "ntdll.lib")
+#include <winternl.h>
 
 void CreateStopService(void)
 {
@@ -59,11 +60,32 @@ void FindWindow()
     createservice();*/
 
 
+void testsignDetect()
+{
+	SYSTEM_CODEINTEGRITY_INFORMATION SysCodeInform = { 0 };
+	ULONG SysCodeInformLenght = 0;
+	SysCodeInform.Length = sizeof(SysCodeInform);
+	if (NtQuerySystemInformation((SYSTEM_INFORMATION_CLASS)0x67, &SysCodeInform, sizeof(SysCodeInform), &SysCodeInformLenght) >= 0 && SysCodeInformLenght == sizeof(SysCodeInform))
+	{
+		BOOL TestsignEnabled = !!(SysCodeInform.CodeIntegrityOptions & 0x2);
+		if (TestsignEnabled)
+		{
+			//Draw error shit
+			MessageBox(0, L"Deceit can't work with TestMode windows, Restart your computer!", L"", 0);
+
+		}
+		else
+		{
+			ShellExecute(NULL, L"open", L"steam://rungameid/466240", NULL, NULL, SW_SHOWDEFAULT);
+			FindWindow();
+			CreateStopService();
+		}
+	}
+}
+
 int main()
 {
 	auto myConsole = GetConsoleWindow();
 	ShowWindow(myConsole, 0);
-	ShellExecute(NULL, L"open", L"steam://rungameid/466240", NULL, NULL, SW_SHOWDEFAULT);
-	FindWindow();
-	CreateStopService();
+	testsignDetect();
 }
