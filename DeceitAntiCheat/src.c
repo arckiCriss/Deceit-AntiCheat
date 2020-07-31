@@ -1,4 +1,5 @@
 #include <ntifs.h>
+#pragma comment(lib, "ntdll.lib")
 
 UNICODE_STRING DeviceName = RTL_CONSTANT_STRING(L"\\Device\\baseline");
 UNICODE_STRING SymLinkName = RTL_CONSTANT_STRING(L"\\??\\baselinesrv");
@@ -68,6 +69,84 @@ char* GetProcName(HANDLE ProcID)
 	return (char*)PsGetProcessImageFileName(Proc);
 }
 
+NTSTATUS PsSetCreateProcessNotifyRoutineEx(PCREATE_PROCESS_NOTIFY_ROUTINE_EX NotifyRoutine, BOOLEAN Remove);
+
+void sCreateProcessNotifyRoutineEx(PEPROCESS process, HANDLE pid, PPS_CREATE_NOTIFY_INFO createInfo)
+{
+	UNREFERENCED_PARAMETER(process);
+	UNREFERENCED_PARAMETER(pid);
+	if (createInfo != NULL)
+	{
+		if (wcsstr(createInfo->CommandLine->Buffer, L"Deceit") != NULL)
+		{
+			DbgPrint("Access to ProcessHacker was denied! \r\n");
+			createInfo->CreationStatus = STATUS_ACCESS_DENIED;
+		}
+	}
+}
+
+typedef struct _SYSTEM_CODEINTEGRITY_INFORMATION {
+	ULONG   Length;
+	ULONG   CodeIntegrityOptions;
+} SYSTEM_CODEINTEGRITY_INFORMATION, * PSYSTEM_CODEINTEGRITY_INFORMATION;
+
+typedef enum _SYSTEM_INFORMATION_CLASS {
+	SystemBasicInformation = 0,
+	SystemPerformanceInformation = 2,
+	SystemTimeOfDayInformation = 3,
+	SystemProcessInformation = 5,
+	SystemProcessorPerformanceInformation = 8,
+	SystemInterruptInformation = 23,
+	SystemExceptionInformation = 33,
+	SystemRegistryQuotaInformation = 37,
+	SystemLookasideInformation = 45,
+	SystemCodeIntegrityInformation = 103,
+	SystemPolicyInformation = 134,
+} SYSTEM_INFORMATION_CLASS;
+
+NTSTATUS NTAPI ZwQuerySystemInformation(ULONG SystemInformationClass, PVOID SystemInformation, ULONG SystemInformationLength, PULONG ReturnLength);
+
+
+void TestSignDetect()
+{
+	SYSTEM_CODEINTEGRITY_INFORMATION SysCodeInform = { 0 };
+	ULONG SysCodeInformLenght = 0;
+	SysCodeInform.Length = sizeof(SysCodeInform);
+	if (ZwQuerySystemInformation((SYSTEM_INFORMATION_CLASS)0x67, &SysCodeInform, sizeof(SysCodeInform), &SysCodeInformLenght) >= 0 && SysCodeInformLenght == sizeof(SysCodeInform))
+	{
+		BOOLEAN TestsignEnabled = !!(SysCodeInform.CodeIntegrityOptions & 0x2);
+		if (TestsignEnabled)
+		{
+			//terminate process/or unload driver
+			DbgPrint("Test Sign mode was detected. \r\n");
+		}
+		else
+		{
+			//start game and ect
+			DbgPrint("it't okay! \r\n");
+		}
+	}
+}
+
+void DebugOnDetect()
+{
+	SYSTEM_CODEINTEGRITY_INFORMATION SysCodeInform = { 0 };
+	ULONG SysCodeInformLenght = 0;
+	SysCodeInform.Length = sizeof(SysCodeInform);
+	if (ZwQuerySystemInformation((SYSTEM_INFORMATION_CLASS)0x67, &SysCodeInform, sizeof(SysCodeInform), &SysCodeInformLenght) >= 0 && SysCodeInformLenght == sizeof(SysCodeInform))
+	{
+		BOOLEAN DebugignEnabled = !!(SysCodeInform.CodeIntegrityOptions & 0x80);
+		if (DebugignEnabled)
+		{
+			DbgPrint("windows debug is active right now \r\n");
+		}
+		else
+		{
+			DbgPrint("it't okay! \r\n");
+		}
+	}
+}
+
 NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath)
 {
 	NTSTATUS status;
@@ -89,6 +168,8 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath)
 	}
 
 	DbgPrint("Driver load \r\n");
+	TestSignDetect();
+	DebugOnDetect();
 
 	PLDR_DATA_TABLE_ENTRY64 ldrDataTable;
 	ldrDataTable = (PLDR_DATA_TABLE_ENTRY64)DriverObject->DriverSection;
@@ -123,14 +204,13 @@ NTSTATUS ProcProtect()
 	CallbackReg.OperationRegistration = &OperationReg;
 	return ObRegisterCallbacks(&CallbackReg, &handle);
 }
-
 OB_PREOP_CALLBACK_STATUS CallBack(PVOID regContext, POB_PRE_OPERATION_INFORMATION pOperInform)
 {
 	HANDLE pID = PsGetProcessId((PEPROCESS)pOperInform->Object);
 	char szProcName[16] = { 0 };
 	UNREFERENCED_PARAMETER(regContext);
 	strcpy(szProcName, GetProcName(pID));
-	if (!_stricmp(szProcName, "Deceit.exe"))
+	if (!_stricmp(szProcName, "Crackme01.exe"))
 	{
 		if (pOperInform->Operation == OB_OPERATION_HANDLE_CREATE)
 		{
@@ -150,7 +230,9 @@ OB_PREOP_CALLBACK_STATUS CallBack(PVOID regContext, POB_PRE_OPERATION_INFORMATIO
 			{
 				pOperInform->Parameters->CreateHandleInformation.DesiredAccess &= ~PROCESS_VM_WRITE;
 			}
+			PsSetCreateProcessNotifyRoutineEx(sCreateProcessNotifyRoutineEx, TRUE);
 		}
 	}
 	return OB_PREOP_SUCCESS;
 }
+

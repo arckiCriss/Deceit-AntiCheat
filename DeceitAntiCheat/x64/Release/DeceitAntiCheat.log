@@ -1,5 +1,7 @@
 ﻿  Building 'DeceitAntiCheat' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   src.c
+C:\Users\manno\Documents\GitHub\Deceit-AntiCheat\DeceitAntiCheat\src.c(72,108): warning C4273: 'PsSetCreateProcessNotifyRoutineEx': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\km\ntddk.h(10493,1): message : see previous definition of 'PsSetCreateProcessNotifyRoutineEx'
   DeceitAntiCheat.vcxproj -> C:\Users\manno\Documents\GitHub\Deceit-AntiCheat\DeceitAntiCheat\x64\Release\DeceitAntiCheat.sys
   Driver is 'Universal'.
   Inf2Cat task was skipped as there were no inf files to process
